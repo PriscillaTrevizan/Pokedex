@@ -1,0 +1,30 @@
+@import  "path/to/reset-and-normalize.min.css" ;
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; /*facilita as jogadas de tamanho das caixas*/
+}
+
+body {
+    background-color: #F6F8FC;
+}
+.content{
+    padding: 1rem;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+.content h1{
+    margin: 0;
+}
+
